@@ -24,7 +24,7 @@ jobs:
 
       - name: Build the EXE
         run: |
-          pyinstaller --onefile app.py
+          pyinstaller --onefile main.py
           # ^ replace "app.py" with the name of your main python file
 
       - name: Save the EXE
